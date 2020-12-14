@@ -1,9 +1,13 @@
 import React from 'react'
 import { View, Text, ImageBackground, Pressable } from 'react-native'
+import { useNavigation } from '@react-navigation/native'
 import styles from './styles'
 import Fontisto from 'react-native-vector-icons/Fontisto'
 
 export default function HomeScreen() {
+
+    const navigation = useNavigation()
+
     return (
         <View>
             <Pressable

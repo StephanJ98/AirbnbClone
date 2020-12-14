@@ -35,6 +35,15 @@ const styles = StyleSheet.create({
     simbol: {
         fontSize: 20,
         color: '#474747'
+    },
+    searchButton: {
+        marginBottom: 20,
+        backgroundColor: '#f15454',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: 50,
+        marginHorizontal: 20,
+        borderRadius: 10
     }
 });
 
